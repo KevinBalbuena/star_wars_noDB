@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "wins": 0,
+    "favoriteCharacterName": "Captain Falcon",
+    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/captain_falcon/main.png",
+    "playerName": "Raw",
+    "trashTalkPercentage": 9000
+  },
+  {
+    "id": 2,
+    "wins": 0,
+    "favoriteCharacterName": "Falco",
+    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/secret01/main.png",
+    "playerName": "Josh",
+    "trashTalkPercentage": 9001
+  },
+  {
+    "id": 3,
+    "wins": 0,
+    "favoriteCharacterName": "Mega Knight",
+    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/metaknight/main.png",
+    "playerName": "Bot",
+    "trashTalkPercentage": 300
+  }
+]
