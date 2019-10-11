@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import Section from "../Components/Section/Section";
-import GetAllPlayer from "../Components/GetAllPlayer/GetAllPlayer";
+import Home from "../Components/Home/Home";
 
 export default class Router extends Component {
   render() {
     return (
       <Switch>
         <Route exact path="/" component={Section} />
-        <Route exact path="/project" component={GetAllPlayer} />
+        <Route exact path="/home" component={Home} />
       </Switch>
     );
   }

@@ -1,26 +1,42 @@
 [
   {
     "id": 1,
-    "wins": 0,
-    "favoriteCharacterName": "Captain Falcon",
-    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/captain_falcon/main.png",
-    "playerName": "Raw",
-    "trashTalkPercentage": 9000
+    "characterName": "BB-8",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdaf.png"
   },
   {
     "id": 2,
-    "wins": 0,
-    "favoriteCharacterName": "Falco",
-    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/secret01/main.png",
-    "playerName": "Josh",
-    "trashTalkPercentage": 9001
+    "characterName": "RD-D2",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb6.png"
   },
   {
     "id": 3,
-    "wins": 0,
-    "favoriteCharacterName": "Mega Knight",
-    "characterImage": "https://www.smashbros.com/wiiu-3ds/images/character/metaknight/main.png",
-    "playerName": "Bot",
-    "trashTalkPercentage": 300
+    "characterName": "C-3PO",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb0.png"
+  },
+  {
+    "id": 4,
+    "characterName": "Yoda",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/585d14a2cb11b227491c32c2.png"
+  },
+  {
+    "id": 5,
+    "characterName": "Stormtrooper",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/585d13c2cb11b227491c32b9.png"
+  },
+  {
+    "id": 6,
+    "characterName": "Dark Vador",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb8.png"
+  },
+  {
+    "id": 7,
+    "characterName": "Kylo Ren",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/58a2004ec8dd3432c6fa8219.png"
+  },
+  {
+    "id": 8,
+    "characterName": "BB-8",
+    "characterImage": "https://www.stickpng.com/assets/thumbs/5862b30d1aa68e0bf26fa1e4.png"
   }
 ]

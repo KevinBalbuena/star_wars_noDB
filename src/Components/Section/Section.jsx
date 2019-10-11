@@ -7,7 +7,6 @@ class Section extends Component {
     return (
       <div className="star-wars-background">
         <div className="fade"></div>
-
         <section className="star-wars">
           <div className="crawl">
             <div className="title">
@@ -34,7 +33,7 @@ class Section extends Component {
               with their valuable hostage, two Developer Jedi's lead a desperate
               mission to rescue the captive Chancellor . . . .
             </p>
-            <Link to="/project">
+            <Link to="/home">
               <img
                 className="rd-d2"
                 src="http://pngimg.com/uploads/starwars/starwars_PNG43.png"

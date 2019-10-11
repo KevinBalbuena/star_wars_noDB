@@ -1,0 +1,33 @@
+.card {
+  background: #333232;
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 13px 18px 8px 0 rgba(0, 0, 0, 1.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-list {
+  display: flex;
+}
+.card-name {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.8rem;
+  color: #feda4a;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  padding: 3.5rem;
+}
+.small-img {
+  height: 150px;
+  width: 150px;
+}
