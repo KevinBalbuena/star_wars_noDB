@@ -1,4 +1,9 @@
 .logo {
-  height: 12rem;
-  width: 12rem;
+  height: 14rem;
+  width: 15rem;
+}
+
+.center-logo {
+  display: flex;
+  justify-content: center;
 }

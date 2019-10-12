@@ -10,3 +10,22 @@ body {
   grid-template-columns: 300px 300px 300px 300px;
   margin: 3.8rem;
 }
+
+.search-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  background: black;
+  color: #feda4a;
+  width: 25rem;
+  height: 2.8rem;
+  font-size: 2rem;
+  border: #feda4a solid 2px;
+  border-radius: 15px;
+}
+
+.search-bar:hover {
+  cursor: pointer;
+}

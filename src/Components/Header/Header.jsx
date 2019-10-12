@@ -4,7 +4,7 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div className="center-logo">
         <img
           className="logo"
           src="https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb9.png"

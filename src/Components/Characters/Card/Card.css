@@ -1,5 +1,5 @@
 .card {
-  background: #333232;
+  background: #414040;
   height: 400px;
   width: 400px;
   margin: 10px;
@@ -28,6 +28,45 @@
   padding: 3.5rem;
 }
 .small-img {
-  height: 150px;
-  width: 150px;
+  height: 10.2rem;
+  width: 10.2rem;
+}
+
+.post-btn {
+  background: #feda4a;
+  border-radius: 15px;
+  border: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 15px 31px;
+}
+
+.post-btn:hover {
+  background: black;
+  color: #feda4a;
+}
+
+.comment-input {
+  background: black;
+  color: #feda4a;
+  margin-top: 1.2rem;
+  margin-left: 16px;
+  border: #feda4a solid 2px;
+  border-radius: 14px;
+  height: 27px;
+}
+
+.comment {
+  color: #feda4a;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.no-btn {
+  background: #feda4a;
+  border: transparent;
+  border-radius: 50px;
+}
+.ctr-btn {
+  display: flex;
+  justify-content: center;
 }

@@ -1,9 +1,17 @@
 const express = require("express");
 const app = express();
-const { getAllCharacters } = require("./Controller/Controller");
+const {
+  getAllCharacters,
+  postComment,
+  getCharacterById,
+  deleteComment
+} = require("./Controller/Controller");
 
 app.use(express.json());
 app.get("/api/all_star_war_characters", getAllCharacters);
+app.get("/api/star_war_character/:id", getCharacterById);
+app.post("/api/post_comment", postComment);
+app.delete("/api/delete_comment", deleteComment);
 
 const port = 4000;
 app.listen(port, () => console.log(`listening on port ${port}`));
