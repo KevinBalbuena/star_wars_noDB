@@ -1,4 +1,5 @@
 const starWarsData = require("../data.json");
+let addFavoriteCharacter = [];
 
 module.exports = {
   getAllCharacters: (req, res, next) => {
@@ -21,6 +22,54 @@ module.exports = {
     } else {
       res.status(404).send("Character not found");
     }
+  },
+  postFavCharacter: (req, res, next) => {
+    const {
+      id,
+      characterName,
+      characterImage,
+      favoriteCharacterRating
+    } = req.body;
+    console.log(req.body);
+    addFavoriteCharacter.push({
+      id,
+      characterName,
+      characterImage,
+      favoriteCharacterRating
+    });
+    res.status(200).send(addFavoriteCharacter);
+  },
+  updateFavCharacterRating: (req, res, next) => {
+    const item = starWarsData[String(req.params.id)];
+    const { newFavoriteCharacterRating } = req.body;
+    if (item !== -1) {
+      console.log(addFavoriteCharacter);
+      if (
+        newFavoriteCharacterRating ===
+        addFavoriteCharacter.favoriteCharacterRating
+      ) {
+        res.status(200).send(addFavoriteCharacter);
+      }
+      if (
+        item >= 0 &&
+        newFavoriteCharacterRating >= 0 &&
+        newFavoriteCharacterRating <= 24
+      ) {
+        addFavoriteCharacter.favoriteCharacterRating ===
+          newFavoriteCharacterRating;
+        res.status(200).send(addFavoriteCharacter);
+      } else {
+        res.status(404).send("Sorry not possible");
+      }
+    }
+  },
+  deleteFavCharacter: (req, res, next) => {
+    const deleteId = starWarsData[String(req.params.id)];
+    itemIndex = addFavoriteCharacter.findIndex(
+      item => addFavoriteCharacter.id == deleteId
+    );
+    addFavoriteCharacter.splice(itemIndex, 1);
+    res.status(200).send(addFavoriteCharacter);
   },
   deleteComment: (req, res, next) => {
     const { id } = req.body;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./Card/Card";
+import FavoriteCharacterList from "../FavoriteCharacterList/FavoriteCharacterList";
 import Scroll from "../Scroll/Scroll";
 import axios from "axios";
 import "./Characters.css";
@@ -9,7 +10,8 @@ class Characters extends Component {
     super(props);
     this.state = {
       searchField: "",
-      allCharacters: []
+      allCharacters: [],
+      favCharactersList: []
     };
   }
 
@@ -28,13 +30,43 @@ class Characters extends Component {
       .catch(err => console.log(err));
   };
 
-  createComment = (id, comment) => {
-    axios
-      .post("/api/post_comment", { id, comment })
-      .then(() => {
-        this.getAllCharacters();
-      })
-      .catch(err => console.log(err));
+  getFavCharactersList = list => {
+    console.log(list, "the list");
+    axios.post("/api/favorite_characters", list).then(response => {
+      console.log(response.data, "this is data");
+      this.setState({
+        favCharactersList: response.data
+      });
+    });
+  };
+  // getAllCharacters = async () => {
+  //   try {
+  //     await axios.get("/api/all_star_war_characters");
+  //     await (response => {
+  //       this.setState({
+  //         allCharacters: response.data
+  //       });
+  //     });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
+  deleteFromList = list => {
+    axios.delete("/api/favorite_characters/:id", list).then(response => {
+      this.setState({
+        favCharactersList: response.data
+      });
+    });
+  };
+
+  createComment = async (id, comment) => {
+    try {
+      await axios.post("/api/post_comment", { id, comment });
+      await this.getAllCharacters();
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   deleteComment = async id => {
@@ -47,7 +79,7 @@ class Characters extends Component {
   };
 
   render() {
-    const { allCharacters, searchField } = this.state;
+    const { allCharacters, searchField, favCharactersList } = this.state;
     const mappedCharacters = Object.values(allCharacters)
       .filter(character => {
         return character.characterName
@@ -61,9 +93,24 @@ class Characters extends Component {
             {...character}
             createComment={this.createComment}
             deleteComment={this.deleteComment}
+            getFavCharactersList={this.getFavCharactersList}
+            inList={false}
           />
         );
       });
+
+    const mappedFavCharactersList = favCharactersList.map(element => {
+      return (
+        <FavoriteCharacterList
+          key={element.id}
+          characterName={element.characterName}
+          characterImage={element.characterImage}
+          favoriteCharacterRating={element.favoriteCharacterRating}
+          deleteFromList={this.deleteFromList}
+        />
+      );
+    });
+
     return (
       <main>
         <div className="search-nav">
@@ -76,9 +123,12 @@ class Characters extends Component {
             }}
           />
         </div>
-        <Scroll>
-          <div className="characters">{mappedCharacters}</div>
-        </Scroll>
+        <div className="test">
+          <Scroll>
+            <div className="characters">{mappedCharacters}</div>
+          </Scroll>
+          <div className="list">{mappedFavCharactersList}</div>
+        </div>
       </main>
     );
   }

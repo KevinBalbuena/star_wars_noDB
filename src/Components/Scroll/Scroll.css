@@ -1,8 +1,7 @@
 .scroll {
   overflow: scroll;
-  border: 5px solid black;
+  overflow-x: hidden;
   height: 75vh;
-  width: 70%;
-  /* width: 0 !important; */
+  width: 69%;
   margin: 2rem;
 }

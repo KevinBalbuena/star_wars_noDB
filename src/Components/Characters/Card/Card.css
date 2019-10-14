@@ -1,8 +1,6 @@
 .card {
   background: #414040;
-  height: 400px;
-  width: 400px;
-  margin: 10px;
+  margin: 1rem;
   border-radius: 10px;
   box-shadow: 13px 18px 8px 0 rgba(0, 0, 0, 1.5);
   transition: all 0.2s ease-in-out;
@@ -14,22 +12,27 @@
 
 .card-list {
   display: flex;
+  margin: 2rem 0 0 3rem;
 }
+
 .card-name {
   text-align: center;
   padding-top: 1.5rem;
   font-size: 1.8rem;
   color: #feda4a;
+  font-family: "Black Ops One", cursive;
 }
 
 .center-img {
   display: flex;
   justify-content: center;
-  padding: 3.5rem;
+  padding: 0.8rem 2rem;
 }
+
 .small-img {
-  height: 10.2rem;
-  width: 10.2rem;
+  height: 10rem;
+  width: 55%;
+  margin: 1.5rem 4rem;
 }
 
 .post-btn {
@@ -39,6 +42,7 @@
   font-size: 12px;
   font-weight: bold;
   margin: 15px 31px;
+  line-height: 1.9;
 }
 
 .post-btn:hover {
@@ -61,12 +65,32 @@
   font-size: 1.3rem;
   text-align: center;
 }
+
+.plus-btn,
 .no-btn {
-  background: #feda4a;
+  background: transparent;
   border: transparent;
-  border-radius: 50px;
+  font-size: 2.1rem;
+  color: #feda4a;
 }
-.ctr-btn {
+
+.plus-btn:hover,
+.no-btn:hover {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.ctr-btn,
+.center-btn {
   display: flex;
   justify-content: center;
+}
+
+.center-input {
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
 }

@@ -2,145 +2,169 @@
   "1": {
     "id": 1,
     "characterName": "BB-8",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdaf.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/BB8-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 1
   },
   "2": {
     "id": 2,
     "characterName": "R2-D2",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb6.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/R2D2-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 2
   },
   "3": {
     "id": 3,
     "characterName": "C-3PO",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb0.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-34-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 3
   },
   "4": {
     "id": 4,
     "characterName": "Yoda",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/585d14a2cb11b227491c32c2.png",
-    "comment": ""
+    "characterImage": "https://cdn0.iconfinder.com/data/icons/movies-8/64/yoda_hollywood_cinema_film-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 4
   },
   "5": {
     "id": 5,
     "characterName": "Stormtrooper",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/585d13c2cb11b227491c32b9.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Empire_Stormtrooper-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 5
   },
   "6": {
     "id": 6,
     "characterName": "Dark Vader",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb8.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/super-hero/154/super-hero-dark-weider-head-star-wars-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 6
   },
   "7": {
     "id": 7,
     "characterName": "Kylo Ren",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/58a2004ec8dd3432c6fa8219.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Kylo_Ren-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 7
   },
   "8": {
     "id": 8,
     "characterName": "Han Solo",
-    "characterImage": "https://www.stickpng.com/assets/thumbs/5862b30d1aa68e0bf26fa1e4.png",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/186/han-solo-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 8
   },
   "9": {
     "id": 9,
     "characterName": "Chewbacca",
-    "characterImage": "http://www.pngmart.com/files/5/Chewbacca-Transparent-Background.png",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/229/chewbacca-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 9
   },
   "10": {
     "id": 10,
-    "characterName": "Han Solo",
-    "characterImage": "http://pluspng.com/img-png/han-solo-png-format-png-256.png",
-    "comment": ""
+    "characterName": "Princess Leia",
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/175/princess-leia-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 10
   },
   "11": {
     "id": 11,
     "characterName": "Jar Jar Binks",
-    "characterImage": "http://iconbug.com/data/3e/128/362d9f59e1efda0e8b34856d785c0cbb.png",
-    "comment": ""
+    "characterImage": "https://cdn2.iconfinder.com/data/icons/star-wars-5/24/Jar-Jar_Binks-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 11
   },
   "12": {
     "id": 12,
-    "characterName": "Mace Windu",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dcanbdi-cf1c078d-7155-4415-94a5-3e1506858a39.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNhbmJkaS1jZjFjMDc4ZC03MTU1LTQ0MTUtOTRhNS0zZTE1MDY4NThhMzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6gM08rCYkA9xL5D0EnVT7wQRXcXzkPpdmSIaizp4Ohk",
-    "comment": ""
+    "characterName": "Ewok",
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/198/ewok-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 12
   },
   "13": {
     "id": 13,
     "characterName": "General Grievous",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dclh19x-556d788b-da93-4d21-ad99-af301efb7197.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNsaDE5eC01NTZkNzg4Yi1kYTkzLTRkMjEtYWQ5OS1hZjMwMWVmYjcxOTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rm21TBKeqMwK7si0iA0Od29UGir6y8LaHxFBCy4DIVg",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/smashicons-movies-flat/54/15_-_Grievous_Flat-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 13
   },
   "14": {
     "id": 14,
     "characterName": "Darth Maul",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dc99z5g-36e48bef-22af-4b6d-b1f3-aa5793ece176.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGM5OXo1Zy0zNmU0OGJlZi0yMmFmLTRiNmQtYjFmMy1hYTU3OTNlY2UxNzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CIpyLs0Gt1Sq1RMbO5jlk3cvTjFw3DH0q_rLrTJ_qk4",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/181/darth-maul-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 14
   },
   "15": {
     "id": 15,
-    "characterName": "Count Dooku",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dcanb4l-5ed3229c-6aa8-403e-ab94-d388575074df.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNhbmI0bC01ZWQzMjI5Yy02YWE4LTQwM2UtYWI5NC1kMzg4NTc1MDc0ZGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.L03TFC819SOfmgBoKOBg9M-n-E2ig8Tq05zjLDCp8_Y",
-    "comment": ""
+    "characterName": "Queen Amidala",
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-40-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 15
   },
   "16": {
     "id": 16,
-    "characterName": "Anakin Skywalker",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dcan1ck-cfb202ed-5ed8-439b-ab9f-7ba9198ec647.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNhbjFjay1jZmIyMDJlZC01ZWQ4LTQzOWItYWI5Zi03YmE5MTk4ZWM2NDcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IlOUBafYeeHt6w2EoCr9f56ELN05uW-pq-hQKmKcP0g",
-    "comment": ""
+    "characterName": "Luke Skywalker",
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/193/luke-skywalker-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 16
   },
   "17": {
     "id": 17,
     "characterName": "Obi-Wan Kenobi ",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dcand30-68485dad-da2f-4a15-8f71-8b32e6f87695.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNhbmQzMC02ODQ4NWRhZC1kYTJmLTRhMTUtOGY3MS04YjMyZTZmODc2OTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ftuPgP8zQ6VLgmKuUsbf7BTwOvQ3s__vPcPT1kqXXI8",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/216/obiwan-kenobi-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 17
   },
   "18": {
     "id": 18,
-    "characterName": "Rey Skywalker",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/ddhkoo5-85da4592-d7d4-4dba-93b8-0d4a2287d17d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGRoa29vNS04NWRhNDU5Mi1kN2Q0LTRkYmEtOTNiOC0wZDRhMjI4N2QxN2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xrNsNtey78rxHAdo0dNkcnT4I7txTyd_VQnJf8PxppM",
-    "comment": ""
+    "characterName": "Tusken Raiders",
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/189/tusken-raider-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 18
   },
   "19": {
     "id": 19,
     "characterName": "Boba Fett",
-    "characterImage": "https://www.pngarts.com/files/4/Boba-Fett-PNG-High-Quality-Image.png",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/175/boba-fett-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 19
   },
   "20": {
     "id": 20,
-    "characterName": "Ahsoka Tano",
-    "characterImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22533fb0-3db2-4d45-8675-4aaf09a2027b/dcanfs2-7baf65ca-2dfe-43c7-9cf4-c7563f78641f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyNTMzZmIwLTNkYjItNGQ0NS04Njc1LTRhYWYwOWEyMDI3YlwvZGNhbmZzMi03YmFmNjVjYS0yZGZlLTQzYzctOWNmNC1jNzU2M2Y3ODY0MWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.260pLotNkGxoJC3kVRWKZAVxqz_Sdv7_-DecuzqLphE",
-    "comment": ""
+    "characterName": "Lando Calrissian",
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/186/lando-calrissian-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 20
   },
   "21": {
     "id": 21,
     "characterName": "Jabba The Hutt",
-    "characterImage": "http://iconbug.com/data/f8/256/fde579446855b2c35fcb817e46fbed9e.png",
-    "comment": ""
+    "characterImage": "https://cdn4.iconfinder.com/data/icons/movies-2-retro/60/054_-_Jabba_the_Hut-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 21
   },
   "22": {
     "id": 22,
     "characterName": "Qui-Gon Jinn",
-    "characterImage": "https://www.seekpng.com/png/full/75-752580_qui-gon-jinn-star-wars-qui-gon-jinn.png",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/187/qui-gon-jinn-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 22
   },
   "23": {
     "id": 23,
     "characterName": "Emperor Palpatine",
-    "characterImage": "https://www.freepngimg.com/thumb/star_wars/80756-outerwear-skywalker-darth-anakin-palpatine-maul-hood-thumb.png",
-    "comment": ""
+    "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/216/emperor-palpatine-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 23
   },
   "24": {
     "id": 24,
-    "characterName": "Millennium Falcon",
-    "characterImage": "http://pngimg.com/uploads/starwars/starwars_PNG52.png",
-    "comment": ""
+    "characterName": "Phanpy",
+    "characterImage": "https://cdn0.iconfinder.com/data/icons/pokemon-1/64/star_wars_cartoon_character_pokemon-128.png",
+    "comment": "",
+    "favoriteCharacterRating": 24
   }
 }
