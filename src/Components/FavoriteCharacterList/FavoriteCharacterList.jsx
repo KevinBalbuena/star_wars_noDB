@@ -5,7 +5,8 @@ class FavoriteCharacterList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      list: []
+      list: [],
+      newRating: this.props.favoriteCharacterRating
     };
   }
 
@@ -17,7 +18,7 @@ class FavoriteCharacterList extends Component {
       deleteFromList,
       id
     } = this.props;
-    console.log(characterImage, characterName);
+    // const { newRating } = this.setState;
     return (
       <div className="list-card">
         <div className="center-list">
@@ -27,6 +28,17 @@ class FavoriteCharacterList extends Component {
           <button className="trash-btn" onClick={() => deleteFromList(id)}>
             <i className="fas fa-trash"></i>
           </button>
+          {/* <input
+            onChange={element =>
+              this.setState({
+                newRating: element.target.value
+              })
+            }
+            value={newRating}
+          />
+          <button onClick={() => updateCharaterRating(id, newRating)}>
+            Rate
+          </button> */}
         </div>
       </div>
     );

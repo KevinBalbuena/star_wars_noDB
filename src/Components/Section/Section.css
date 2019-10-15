@@ -59,6 +59,17 @@
   text-transform: uppercase;
 }
 
+.click-btn {
+  font-size: 4rem;
+  color: #feda4a;
+  font-family: "Pathway Gothic One", sans-serif;
+  text-decoration: underline;
+}
+
+.click-btn:hover {
+  color: red;
+}
+
 @keyframes crawl {
   0% {
     top: -100px;

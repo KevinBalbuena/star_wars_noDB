@@ -1,170 +1,170 @@
-{
-  "1": {
+[
+  {
     "id": 1,
     "characterName": "BB-8",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/BB8-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 1
   },
-  "2": {
+  {
     "id": 2,
     "characterName": "R2-D2",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/R2D2-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 2
   },
-  "3": {
+  {
     "id": 3,
     "characterName": "C-3PO",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-34-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 3
   },
-  "4": {
+  {
     "id": 4,
     "characterName": "Yoda",
     "characterImage": "https://cdn0.iconfinder.com/data/icons/movies-8/64/yoda_hollywood_cinema_film-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 4
   },
-  "5": {
+  {
     "id": 5,
     "characterName": "Stormtrooper",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Empire_Stormtrooper-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 5
   },
-  "6": {
+  {
     "id": 6,
     "characterName": "Dark Vader",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/super-hero/154/super-hero-dark-weider-head-star-wars-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 6
   },
-  "7": {
+  {
     "id": 7,
     "characterName": "Kylo Ren",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Kylo_Ren-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 7
   },
-  "8": {
+  {
     "id": 8,
     "characterName": "Han Solo",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/186/han-solo-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 8
   },
-  "9": {
+  {
     "id": 9,
     "characterName": "Chewbacca",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/229/chewbacca-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 9
   },
-  "10": {
+  {
     "id": 10,
     "characterName": "Princess Leia",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/175/princess-leia-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 10
   },
-  "11": {
+  {
     "id": 11,
     "characterName": "Jar Jar Binks",
     "characterImage": "https://cdn2.iconfinder.com/data/icons/star-wars-5/24/Jar-Jar_Binks-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 11
   },
-  "12": {
+  {
     "id": 12,
     "characterName": "Ewok",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/198/ewok-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 12
   },
-  "13": {
+  {
     "id": 13,
     "characterName": "General Grievous",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/smashicons-movies-flat/54/15_-_Grievous_Flat-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 13
   },
-  "14": {
+  {
     "id": 14,
     "characterName": "Darth Maul",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/181/darth-maul-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 14
   },
-  "15": {
+  {
     "id": 15,
     "characterName": "Queen Amidala",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-40-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 15
   },
-  "16": {
+  {
     "id": 16,
     "characterName": "Luke Skywalker",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/193/luke-skywalker-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 16
   },
-  "17": {
+  {
     "id": 17,
     "characterName": "Obi-Wan Kenobi ",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/216/obiwan-kenobi-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 17
   },
-  "18": {
+  {
     "id": 18,
     "characterName": "Tusken Raiders",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/189/tusken-raider-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 18
   },
-  "19": {
+  {
     "id": 19,
     "characterName": "Boba Fett",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/175/boba-fett-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 19
   },
-  "20": {
+  {
     "id": 20,
     "characterName": "Lando Calrissian",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/186/lando-calrissian-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 20
   },
-  "21": {
+  {
     "id": 21,
     "characterName": "Jabba The Hutt",
     "characterImage": "https://cdn4.iconfinder.com/data/icons/movies-2-retro/60/054_-_Jabba_the_Hut-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 21
   },
-  "22": {
+  {
     "id": 22,
     "characterName": "Qui-Gon Jinn",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/187/qui-gon-jinn-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 22
   },
-  "23": {
+  {
     "id": 23,
     "characterName": "Emperor Palpatine",
     "characterImage": "https://cdn3.iconfinder.com/data/icons/star-wars-color/216/emperor-palpatine-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 23
   },
-  "24": {
+  {
     "id": 24,
     "characterName": "Phanpy",
     "characterImage": "https://cdn0.iconfinder.com/data/icons/pokemon-1/64/star_wars_cartoon_character_pokemon-128.png",
-    "comment": "",
+    "comment": [],
     "favoriteCharacterRating": 24
   }
-}
+]

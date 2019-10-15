@@ -5,6 +5,11 @@
   margin: 1.5rem;
   border-radius: 1rem;
   box-shadow: 13px 18px 8px 0 rgba(0, 0, 0, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.list-card:hover {
+  transform: scale(1.1);
 }
 
 .center-list {

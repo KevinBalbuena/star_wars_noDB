@@ -19,45 +19,40 @@ class Characters extends Component {
     this.getAllCharacters();
   }
 
-  getAllCharacters = () => {
-    axios
-      .get("/api/all_star_war_characters")
-      .then(response => {
-        this.setState({
-          allCharacters: response.data
-        });
-      })
-      .catch(err => console.log(err));
-  };
-
-  getFavCharactersList = list => {
-    console.log(list, "the list");
-    axios.post("/api/favorite_characters", list).then(response => {
-      console.log(response.data, "this is data");
+  getFavCharactersList = async list => {
+    try {
+      const response = await axios.post("/api/favorite_characters", list);
       this.setState({
         favCharactersList: response.data
       });
-    });
+    } catch (error) {
+      console.log(error);
+    }
   };
-  // getAllCharacters = async () => {
-  //   try {
-  //     await axios.get("/api/all_star_war_characters");
-  //     await (response => {
-  //       this.setState({
-  //         allCharacters: response.data
-  //       });
-  //     });
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
 
-  deleteFromList = list => {
-    axios.delete("/api/favorite_characters/:id", list).then(response => {
+  getAllCharacters = async () => {
+    try {
+      const response = await axios.get("/api/all_star_war_characters");
+      this.setState({
+        allCharacters: response.data
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  deleteFromList = async list => {
+    try {
+      const response = await axios.delete(
+        "/api/remove_favorite_characters",
+        list
+      );
       this.setState({
         favCharactersList: response.data
       });
-    });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   createComment = async (id, comment) => {
@@ -69,9 +64,25 @@ class Characters extends Component {
     }
   };
 
+  updateCharaterRating = async (id, newRating) => {
+    try {
+      const response = await axios.put(
+        `/api/favorite_characters_rating/:${id}`,
+        {
+          newRating
+        }
+      );
+      this.setState({
+        favCharactersList: response.data
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   deleteComment = async id => {
     try {
-      await axios.delete("/api/delete_comment", { data: { id } });
+      await axios.delete(`/api/delete_comment/${id}`);
       await this.getAllCharacters();
     } catch (error) {
       console.log(error);
@@ -107,6 +118,7 @@ class Characters extends Component {
           characterImage={element.characterImage}
           favoriteCharacterRating={element.favoriteCharacterRating}
           deleteFromList={this.deleteFromList}
+          updateCharaterRating={this.updateCharaterRating}
         />
       );
     });
