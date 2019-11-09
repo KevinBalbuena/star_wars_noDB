@@ -6,22 +6,22 @@ body {
   background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
   .characters {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1479px) {
   .characters {
-    grid-template-columns: repeat(2, 420px);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1480px) {
   .characters {
-    grid-template-columns: repeat(3, 420px);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

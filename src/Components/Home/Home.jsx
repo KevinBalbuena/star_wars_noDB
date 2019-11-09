@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Characters from "../Characters/Characters";
+import Main from "../Main/Main";
 import Header from "../Header/Header";
 
 export default class Home extends Component {
@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-        <Characters />
+        <Main />
       </div>
     );
   }

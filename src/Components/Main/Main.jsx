@@ -3,9 +3,9 @@ import Card from "./Card/Card";
 import FavoriteCharacterList from "../FavoriteCharacterList/FavoriteCharacterList";
 import Scroll from "../Scroll/Scroll";
 import axios from "axios";
-import "./Characters.css";
+import "./Main.css";
 
-class Characters extends Component {
+class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -146,4 +146,4 @@ class Characters extends Component {
   }
 }
 
-export default Characters;
+export default Main;

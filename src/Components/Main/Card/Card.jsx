@@ -22,7 +22,6 @@ class Card extends Component {
       createComment,
       id,
       deleteComment,
-      favoriteCharacterRating,
       inList,
       getFavCharactersList
     } = this.props;
@@ -74,7 +73,6 @@ class Card extends Component {
                           id,
                           characterName,
                           characterImage,
-                          favoriteCharacterRating,
                           inList: true
                         })
                       }

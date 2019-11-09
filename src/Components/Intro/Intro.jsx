@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Section.css";
+import "./Intro.css";
 
-class Section extends Component {
+class Intro extends Component {
   render() {
     return (
       <div className="star-wars-background">
@@ -15,8 +15,8 @@ class Section extends Component {
                 src="https://www.stickpng.com/assets/thumbs/580b57fbd9996e24bc43bdb9.png"
                 alt="logo"
               />
-              <p>Episode 69</p>
-              <h1>STOP BEING A RAT </h1>
+              <p>Star Wars Characters</p>
+              <h1>PICK YOUR FAVORITE CHARACTERS </h1>
             </div>
             <p style={{ padding: "2rem" }}>
               War! The Republic is crumbling under attacks by the ruthless Sith
@@ -24,14 +24,10 @@ class Section extends Component {
               everywhere.
             </p>
             <p style={{ padding: "2rem" }}>
-              Adam if you shoot a nerf bullet at my eye, I will throw my mouse
-              at your face jajajajajajajajajajaja . . . . . . . . .
-            </p>
-            {/* <p style={{ padding: "2rem" }}>
               As the Separatist Droid Army attempts to fee the besieged capital
               with their valuable hostage, two Developer Jedi's lead a desperate
               mission to rescue the captive Chancellor . . . .
-            </p> */}
+            </p>
             <Link to="/home">
               <img
                 className="rd-d2"
@@ -46,4 +42,4 @@ class Section extends Component {
     );
   }
 }
-export default Section;
+export default Intro;

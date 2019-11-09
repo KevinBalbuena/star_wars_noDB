@@ -18,7 +18,7 @@ class FavoriteCharacterList extends Component {
       deleteFromList,
       id
     } = this.props;
-    // const { newRating } = this.setState;
+    // const { newRating } = this.state;
     return (
       <div className="list-card">
         <div className="center-list">
